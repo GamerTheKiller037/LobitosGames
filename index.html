@@ -1,0 +1,420 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LobitosGames - Catálogo de Animes y Videojuegos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">LobitosGames</h1>
+        <nav class="nav">
+          <button class="nav-btn active" data-section="home">Inicio</button>
+          <button class="nav-btn" data-section="animes">Animes</button>
+          <button class="nav-btn" data-section="games">Videojuegos</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Search Bar (Hidden on home) -->
+    <section class="search-section" id="searchSection" style="display: none">
+      <div class="container">
+        <div class="search-bar">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Títulos, géneros..."
+          />
+          <button class="search-btn">🔍</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Home Section -->
+      <section id="home" class="section active">
+        <div class="hero-section">
+          <div class="hero-content">
+            <h1 class="hero-title">Descubre el mejor contenido</h1>
+            <p class="hero-subtitle">
+              Animes populares y videojuegos aclamados en un solo lugar
+            </p>
+            <div class="category-buttons">
+              <div
+                class="category-card anime-card"
+                onclick="showSection('animes')"
+              >
+                <i data-lucide="tv" class="category-icon"></i>
+                <h3>Animes</h3>
+                <p>Descubre los mejores animes</p>
+              </div>
+              <div
+                class="category-card games-card"
+                onclick="showSection('games')"
+              >
+                <i data-lucide="gamepad-2" class="category-icon"></i>
+                <h3>Videojuegos</h3>
+                <p>Explora increíbles juegos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="content-rows">
+            <div class="row">
+              <h2 class="row-title">Animes Populares</h2>
+              <div class="row-items">
+                <div class="item-card" onclick="showDetails('anime', 1)">
+                  <img
+                    src="https://via.placeholder.com/250x140/E50914/FFFFFF?text=Anime"
+                    alt="Attack on Titan"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>Attack on Titan</h3>
+                    <p>Drama • Acción</p>
+                  </div>
+                </div>
+                <div class="item-card" onclick="showDetails('anime', 2)">
+                  <img
+                    src="https://via.placeholder.com/250x140/E50914/FFFFFF?text=Anime"
+                    alt="One Piece"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>One Piece</h3>
+                    <p>Aventura • Acción</p>
+                  </div>
+                </div>
+                <div class="item-card" onclick="showDetails('anime', 3)">
+                  <img
+                    src="https://via.placeholder.com/250x140/E50914/FFFFFF?text=Anime"
+                    alt="Demon Slayer"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>Demon Slayer</h3>
+                    <p>Acción • Fantasía</p>
+                  </div>
+                </div>
+                <div class="item-card" onclick="showDetails('anime', 4)">
+                  <img
+                    src="https://via.placeholder.com/250x140/E50914/FFFFFF?text=Anime"
+                    alt="Death Note"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>Death Note</h3>
+                    <p>Drama • Thriller</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <h2 class="row-title games-title">Videojuegos Destacados</h2>
+              <div class="row-items">
+                <div class="item-card" onclick="showDetails('game', 1)">
+                  <img
+                    src="https://via.placeholder.com/250x140/8B0000/FFFFFF?text=Game"
+                    alt="The Witcher 3"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>The Witcher 3</h3>
+                    <p>RPG • Aventura</p>
+                  </div>
+                </div>
+                <div class="item-card" onclick="showDetails('game', 2)">
+                  <img
+                    src="https://via.placeholder.com/250x140/8B0000/FFFFFF?text=Game"
+                    alt="Ghost of Tsushima"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>Ghost of Tsushima</h3>
+                    <p>Acción • Aventura</p>
+                  </div>
+                </div>
+                <div class="item-card" onclick="showDetails('game', 3)">
+                  <img
+                    src="https://via.placeholder.com/250x140/8B0000/FFFFFF?text=Game"
+                    alt="FIFA 24"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>FIFA 24</h3>
+                    <p>Deportes</p>
+                  </div>
+                </div>
+                <div class="item-card" onclick="showDetails('game', 4)">
+                  <img
+                    src="https://via.placeholder.com/250x140/8B0000/FFFFFF?text=Game"
+                    alt="Elden Ring"
+                    class="item-image"
+                  />
+                  <div class="item-overlay">
+                    <h3>Elden Ring</h3>
+                    <p>RPG • Acción</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Animes Section -->
+      <section id="animes" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Animes</h2>
+            <div class="filter-bar">
+              <select id="animeGenre">
+                <option value="all">Todos los géneros</option>
+                <option value="accion">Acción</option>
+                <option value="aventura">Aventura</option>
+                <option value="drama">Drama</option>
+                <option value="fantasia">Fantasía</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="catalog-grid" id="animeGrid">
+            <div class="catalog-item" data-id="1">
+              <img
+                src="https://via.placeholder.com/280x200/E50914/FFFFFF?text=Anime+Poster"
+                alt="Attack on Titan"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>Attack on Titan</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 9.0</span>
+                  <span class="year">2013</span>
+                </div>
+                <p class="genre">Acción • Drama</p>
+                <button class="play-btn" onclick="showDetails('anime', 1)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+
+            <div class="catalog-item" data-id="2">
+              <img
+                src="https://via.placeholder.com/280x200/E50914/FFFFFF?text=Anime+Poster"
+                alt="One Piece"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>One Piece</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 8.8</span>
+                  <span class="year">1999</span>
+                </div>
+                <p class="genre">Aventura • Acción</p>
+                <button class="play-btn" onclick="showDetails('anime', 2)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+
+            <div class="catalog-item" data-id="3">
+              <img
+                src="https://via.placeholder.com/280x200/E50914/FFFFFF?text=Anime+Poster"
+                alt="Demon Slayer"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>Demon Slayer</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 8.7</span>
+                  <span class="year">2019</span>
+                </div>
+                <p class="genre">Acción • Fantasía</p>
+                <button class="play-btn" onclick="showDetails('anime', 3)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+
+            <div class="catalog-item" data-id="4">
+              <img
+                src="https://via.placeholder.com/280x200/E50914/FFFFFF?text=Anime+Poster"
+                alt="Death Note"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>Death Note</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 9.0</span>
+                  <span class="year">2006</span>
+                </div>
+                <p class="genre">Drama • Thriller</p>
+                <button class="play-btn" onclick="showDetails('anime', 4)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Games Section -->
+      <section id="games" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Videojuegos</h2>
+            <div class="filter-bar">
+              <select id="gameGenre">
+                <option value="all">Todos los géneros</option>
+                <option value="rpg">RPG</option>
+                <option value="accion">Acción</option>
+                <option value="aventura">Aventura</option>
+                <option value="deportes">Deportes</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="catalog-grid" id="gameGrid">
+            <div class="catalog-item" data-id="1">
+              <img
+                src="https://via.placeholder.com/280x200/8B0000/FFFFFF?text=Game+Poster"
+                alt="The Witcher 3"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>The Witcher 3</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 9.3</span>
+                  <span class="year">2015</span>
+                </div>
+                <p class="genre">RPG • Aventura</p>
+                <button class="play-btn" onclick="showDetails('game', 1)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+
+            <div class="catalog-item" data-id="2">
+              <img
+                src="https://via.placeholder.com/280x200/8B0000/FFFFFF?text=Game+Poster"
+                alt="Ghost of Tsushima"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>Ghost of Tsushima</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 8.7</span>
+                  <span class="year">2020</span>
+                </div>
+                <p class="genre">Acción • Aventura</p>
+                <button class="play-btn" onclick="showDetails('game', 2)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+
+            <div class="catalog-item" data-id="3">
+              <img
+                src="https://via.placeholder.com/280x200/8B0000/FFFFFF?text=Game+Poster"
+                alt="FIFA 24"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>FIFA 24</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 7.8</span>
+                  <span class="year">2023</span>
+                </div>
+                <p class="genre">Deportes</p>
+                <button class="play-btn" onclick="showDetails('game', 3)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+
+            <div class="catalog-item" data-id="4">
+              <img
+                src="https://via.placeholder.com/280x200/8B0000/FFFFFF?text=Game+Poster"
+                alt="Elden Ring"
+                class="item-poster"
+              />
+              <div class="item-info">
+                <h3>Elden Ring</h3>
+                <div class="item-meta">
+                  <span class="rating">⭐ 9.1</span>
+                  <span class="year">2022</span>
+                </div>
+                <p class="genre">RPG • Acción</p>
+                <button class="play-btn" onclick="showDetails('game', 4)">
+                  <i data-lucide="play" class="btn-icon"></i> Ver detalles
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Details Modal -->
+    <div id="detailsModal" class="modal">
+      <div class="modal-content">
+        <button class="modal-close" onclick="closeModal()">✕</button>
+        <div id="modalBody">
+          <!-- Content will be dynamically inserted -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>LobitosGames</h3>
+            <p>Tu plataforma favorita para descubrir animes y videojuegos</p>
+          </div>
+          <div class="footer-section">
+            <h4>Catálogo</h4>
+            <ul>
+              <li><a href="#" onclick="showSection('animes')">Animes</a></li>
+              <li>
+                <a href="#" onclick="showSection('games')">Videojuegos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Soporte</h4>
+            <ul>
+              <li><a href="#">Centro de ayuda</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 LobitosGames. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="js/models/animeModel.js"></script>
+    <script src="js/models/gameModel.js"></script>
+    <script src="js/controllers/animeController.js"></script>
+    <script src="js/controllers/gameController.js"></script>
+    <script src="js/views/viewManager.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
