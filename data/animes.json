@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Attack on Titan",
+    "year": "2013",
+    "episodes": "87 episodios",
+    "genre": "Acción, Drama",
+    "rating": "9.0",
+    "synopsis": "La humanidad se encuentra al borde de la extinción debido a unos gigantes humanoides llamados titanes. Eren Yeager se une al Cuerpo de Exploración para luchar contra estos monstruos y descubrir los secretos que se ocultan en el sótano de su casa.",
+    "image": "https://www.sonypictures.com.mx/sites/mexico/files/2025-02/AOT_1400x2100.jpg"
+  },
+  {
+    "id": 2,
+    "title": "One Piece",
+    "year": "1999",
+    "episodes": "1000+ episodios",
+    "genre": "Aventura, Acción",
+    "rating": "8.8",
+    "synopsis": "Monkey D. Luffy explora el Grand Line con su diversa tripulación de piratas, los Piratas del Sombrero de Paja, en busca del tesoro más grande del mundo conocido como One Piece para convertirse en el próximo Rey de los Piratas.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDaonaX7NExE9iO3Yhj7YYviYUFR4OdayRBg&s"
+  },
+  {
+    "id": 3,
+    "title": "Demon Slayer",
+    "year": "2019",
+    "episodes": "44 episodios",
+    "genre": "Acción, Fantasía",
+    "rating": "8.7",
+    "synopsis": "Tanjiro Kamado busca una cura para su hermana convertida en demonio y busca venganza contra el demonio que mató al resto de su familia. Se une al Demon Slayer Corps para completar su misión.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-0c4t09mhPNB_6WNnRDFTkdfvYMFNUoCQJg&s"
+  },
+  {
+    "id": 4,
+    "title": "Death Note",
+    "year": "2006",
+    "episodes": "37 episodios",
+    "genre": "Drama, Thriller",
+    "rating": "9.0",
+    "synopsis": "Light Yagami, un estudiante de secundaria, encuentra un cuaderno sobrenatural llamado Death Note que le permite matar a cualquier persona escribiendo su nombre. Decide usarlo para crear un mundo sin crimen.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyP2vRUYTEjgphHBRoDjP576UFXGZo3sg9bA&s"
+  },
+  {
+    "id": 5,
+    "title": "Naruto",
+    "year": "2002",
+    "episodes": "720 episodios",
+    "genre": "Acción, Aventura",
+    "rating": "8.4",
+    "synopsis": "Naruto Uzumaki, un joven ninja hiperactivo, busca reconocimiento de sus compañeros y sueña con convertirse en Hokage, el líder de su aldea.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC9iiTW8QuvTWDmvyshZTNjxX7jLJWxYGj4A&s"
+  },
+  {
+    "id": 6,
+    "title": "Dragon Ball Z",
+    "year": "1989",
+    "episodes": "291 episodios",
+    "genre": "Acción, Aventura",
+    "rating": "8.7",
+    "synopsis": "Goku y sus amigos defienden la Tierra de poderosos enemigos extraterrestres y amenazas cósmicas en batallas épicas.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKmPkKz7qe4UF0X5eHIFM1Qwe-AY2bRaq6g&s"
+  },
+  {
+    "id": 7,
+    "title": "My Hero Academia",
+    "year": "2016",
+    "episodes": "138 episodios",
+    "genre": "Acción, Superhéroes",
+    "rating": "8.5",
+    "synopsis": "En un mundo donde casi todos tienen superpoderes, Izuku Midoriya lucha por convertirse en héroe a pesar de nacer sin poderes.",
+    "image": "https://i.pinimg.com/564x/84/b3/57/84b357c31978fd13d54873a066741655.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Fullmetal Alchemist Brotherhood",
+    "year": "2009",
+    "episodes": "64 episodios",
+    "genre": "Aventura, Drama",
+    "rating": "9.1",
+    "synopsis": "Los hermanos Edward y Alphonse Elric buscan la Piedra Filosofal para restaurar sus cuerpos después de un intento fallido de alquimia.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvn1lZgsGzZk_2G__-WDJWEnM3AOWzLbo3Vw&s"
+  }
+]

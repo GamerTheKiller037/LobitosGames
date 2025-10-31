@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "The Witcher 3: Wild Hunt",
+    "year": "2015",
+    "platform": "PC, PlayStation, Xbox, Nintendo Switch",
+    "genre": "RPG, Aventura",
+    "rating": "9.3",
+    "synopsis": "Geralt de Rivia busca a su hija adoptiva Ciri mientras navega por un mundo de fantasía lleno de monstruos, intrigas políticas y decisiones morales complejas. Un RPG de mundo abierto aclamado por la crítica.",
+    "image": "https://media.vandal.net/m/15596/the-witcher-3-wild-hunt-201551495951_1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Ghost of Tsushima",
+    "year": "2020",
+    "platform": "PlayStation 4, PlayStation 5",
+    "genre": "Acción, Aventura",
+    "rating": "8.7",
+    "synopsis": "Jin Sakai debe abandonar las tradiciones samurái y forjar un nuevo camino como El Fantasma para defender la isla de Tsushima de la invasión mongol. Un juego de acción en mundo abierto ambientado en el Japón feudal.",
+    "image": "https://4kwallpapers.com/images/wallpapers/ghost-of-tsushima-768x1024-12072.jpg"
+  },
+  {
+    "id": 3,
+    "title": "FIFA 24",
+    "year": "2023",
+    "platform": "PC, PlayStation, Xbox, Nintendo Switch",
+    "genre": "Deportes",
+    "rating": "7.8",
+    "synopsis": "La última entrega de la famosa serie de simulación de fútbol de EA Sports, con equipos actualizados, nuevos modos de juego y mecánicas mejoradas para ofrecer la experiencia de fútbol más realista.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxGCdCRu39-Y0k2iKUygtG2KGKgupJ9AzlXQ&s"
+  },
+  {
+    "id": 4,
+    "title": "Elden Ring",
+    "year": "2022",
+    "platform": "PC, PlayStation, Xbox",
+    "genre": "RPG, Acción",
+    "rating": "9.1",
+    "synopsis": "Aventúrate en las Tierras Intermedias, un mundo de fantasía oscura creado por Hidetaka Miyazaki y George R.R. Martin. Un souls-like de mundo abierto que desafía a los jugadores con combate exigente y exploración épica.",
+    "image": "https://assets.xboxservices.com/assets/7b/54/7b54f5e4-0857-4ce3-8a18-2b8c431e8a9e.jpg?n=Elden-Ring_GLP-Page-Hero-0_1083x1222_01.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Red Dead Redemption 2",
+    "year": "2018",
+    "platform": "PC, PlayStation, Xbox",
+    "genre": "Acción, Aventura",
+    "rating": "9.7",
+    "synopsis": "Arthur Morgan y la banda de Dutch van der Linde luchan por sobrevivir en el salvaje oeste americano mientras son perseguidos por cazarrecompensas.",
+    "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/FLKQ5PDTCVNPNFHHM5LB7YLSPA.jpg"
+  },
+  {
+    "id": 6,
+    "title": "God of War",
+    "year": "2018",
+    "platform": "PlayStation 4, PlayStation 5, PC",
+    "genre": "Acción, Aventura",
+    "rating": "9.4",
+    "synopsis": "Kratos vive ahora como un hombre en el reino de los dioses y monstruos nórdicos. Es en este mundo duro e implacable donde debe luchar para sobrevivir y enseñar a su hijo a hacer lo mismo.",
+    "image": "https://sm.ign.com/ign_latam/game/g/god-of-war/god-of-war-ragnarok_e91t.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Cyberpunk 2077",
+    "year": "2020",
+    "platform": "PC, PlayStation, Xbox",
+    "genre": "RPG, Acción, Shooter",
+    "rating": "7.2",
+    "synopsis": "Un RPG de acción y aventura de mundo abierto ambientado en Night City, una megalópolis obsesionada con el poder, la glamour y la modificación corporal.",
+    "image": "https://wallpapers.com/images/featured/cyberpunk-2077-q0o5txv6a3pqp7a9.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "year": "2017",
+    "platform": "Nintendo Switch, Wii U",
+    "genre": "Aventura, Acción",
+    "rating": "9.7",
+    "synopsis": "Link despierta de un sueño de 100 años en un Hyrule devastado y debe recuperar sus recuerdos perdidos y derrotar a Calamity Ganon.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg/250px-The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+  }
+]
